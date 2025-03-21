@@ -1,0 +1,49 @@
+body {
+  background-color: #222222;
+  color: white;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #880000;
+  color: white;
+  transform: translateX(50%); /* Ajusta para alinhar ao centro */
+  margin: 10px 40px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+p {
+  font-size: 20px;
+}
+
+input {
+  height: 50px;
+  width: 450px;
+  text-align: center;
+  font-size: 50px;
+}
+
+input::placeholder {
+  font-size: 30px;
+  color: rgb(126, 126, 126);
+}
+
+h1 {
+  font-size: 70px;
+  position: absolute;
+  top: 20px; /* Distância do topo */
+  left: 50%; /* Move o ponto inicial para o centro */
+  transform: translateX(-50%); /* Ajusta para alinhar ao centro */
+  text-align: center;
+}
